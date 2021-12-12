@@ -210,12 +210,12 @@ const generateFinalImage = async (horoscope: Horoscope, sign: Buffer) => {
 
   // Today's Match
   context.font = '20pt Cinzel';
-  context.fillStyle = 'pink';
+  context.fillStyle = 'white';
   context.fillText(horoscope.match, 825, 400);
 
   // Today's Lucky Number
   context.font = '20pt Cinzel';
-  context.fillStyle = 'lime';
+  context.fillStyle = 'white';
   context.fillText(horoscope.number, 825, 450);
 
   // Today's Color
@@ -225,9 +225,10 @@ const generateFinalImage = async (horoscope: Horoscope, sign: Buffer) => {
 
   // Today's Time
   context.font = '20pt Cinzel';
-  context.fillStyle = 'black';
+  context.fillStyle = 'white';
   context.fillText(`Lucky Time: ${horoscope.time}`, 825, 550);
 
+  // Message
   context.font = '50px Gideon';
   context.fillStyle = 'black';
   const lines = getLines(context, horoscope.message);
