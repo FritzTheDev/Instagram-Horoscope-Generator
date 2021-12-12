@@ -255,8 +255,6 @@ app.get('/scorpio', async (_req, res, _next) => {
   horoscope.birthdates = 'Born October 23 - November 21';
   // Today's Date
   const date = new Date();
-  date.setDate(23);
-  date.setMonth(4);
   horoscope.date = date.toDateString();
   // Get Horoscope Match
   horoscope.match = `Sign Match: ${signs[Math.floor(Math.random() * signs.length)]}`;
