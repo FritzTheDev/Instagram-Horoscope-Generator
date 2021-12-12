@@ -1,0 +1,10 @@
+{
+  "name": "gpt-3-horoscope-generator",
+  "version": "0.1.0",
+  "description": "GPT-3 Powered Horoscope Image Generator",
+  "main": "dist/index.js",
+  "repository": "https://github.com/FritzTheDev/GPT-3-Horoscope-Generator",
+  "author": "Frederick Johnson <fritzj96@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true
+}
