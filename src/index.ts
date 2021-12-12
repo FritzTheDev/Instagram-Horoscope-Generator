@@ -147,7 +147,7 @@ const roundRect = (ctx: CanvasRenderingContext2D, x: number, y: number, w: numbe
 
 const randomTime = () => {
   const randomHour = Math.floor(Math.random() * 11 + 1);
-  const randomMinute = `${Math.floor(Math.random() * 9)}${Math.floor(Math.random() * 9)}`;
+  const randomMinute = `${Math.floor(Math.random() * 5)}${Math.floor(Math.random() * 9)}`;
   const randomAmPm = ['AM', 'PM'][Math.floor(Math.random() * 2)];
   return `${randomHour}:${randomMinute} ${randomAmPm}`;
 };
