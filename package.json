@@ -9,7 +9,8 @@
   "private": true,
   "scripts": {
     "dev": "tsnd ./src/index.ts",
-    "build": "start",
+    "build": "tsc",
+    "prestart": "npm run build",
     "start": "node dist/index.js"
   },
   "dependencies": {
